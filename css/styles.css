@@ -1,0 +1,129 @@
+body{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    background-color: #fff;
+}
+ol, ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    font-style: normal;
+}
+.logo{
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+.header .logo-style{
+    color: #2e2f42;
+}
+.nav-item{
+    font-weight: 500;
+    color: #2e2f42;
+}
+.nav-address-item-link{
+    color: currentColor;
+}
+.nav-item-link{
+    color: #2e2f42;
+}
+.nav-address{
+    font-style: normal;
+}
+.nav-item-link:hover, .nav-item-link:focus,
+.nav-address-item-link:hover, .nav-address-item-link:focus{
+    color: #404bbf;
+}
+.hero{
+    background-color: #2e2f42;
+}
+.hero-title{
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fff;
+}
+.hero-button{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+    background-color: #4d5ae5;
+}
+.hero-button:hover, .hero-button:focus{
+    background-color: #404bbf;
+    cursor: pointer;
+}
+.specs-list-title {
+    color: #2e2f42;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+.team {
+    background-color: #f4f4fd;;
+}
+.team-title {
+    color: #2e2f42;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+}
+.team-list-item {
+    background-color: #fff;
+}
+.team-list-title {
+    color: #2e2f42;
+    font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        text-align: center;
+}
+.team-list-descr {
+    text-align: center;
+}
+.portfolio-title {
+    color: #2e2f42;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+
+}
+.portfolio-list-title {
+    color: #2e2f42;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.footer{
+    background-color: #2e2f42;;
+}
+.footer .logo-style{
+    color:#f4f4fd;
+}
+.footer-descr{
+    color: #f4f4fd;
+}
