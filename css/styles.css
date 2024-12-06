@@ -33,11 +33,10 @@ a{
 .header .container {
     display: flex;
     justify-content: space-between;
-    /* align-items: center; */
     width: 1158px;
 }
 
-.header nav {
+.nav-header{
     display: flex;
     align-items: center;
 }
@@ -65,7 +64,6 @@ a{
     font-style: normal;
     display: flex;
     gap: 40px;
-    /* padding: 24px 0; */
 }
 .nav-item-link:hover, .nav-item-link:focus,
 .nav-address-item-link:hover, .nav-address-item-link:focus{
@@ -152,7 +150,6 @@ a{
 .team-list-item {
     background-color: #fff;
     width: calc((100% - 72px) / 4);
-    /* height: 380px; */
     border-radius: 0 0 4px 4px;
 }
 .team-list-title {
@@ -192,6 +189,7 @@ a{
     border-right: 1px solid #e7e9fc;
     border-bottom: 1px solid #e7e9fc;
     border-left: 1px solid #e7e9fc;
+    padding: 32px 16px;
 }
 .portfolio-list-title {
     color: #2e2f42;
@@ -199,14 +197,9 @@ a{
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    padding-top: 32px;
-    padding-bottom: 8px;
-    padding-left: 16px;
+    margin-bottom: 8px;
 }
-.portfolio-list-descr{
-    padding-bottom: 32px;
-    padding-left: 16px;
-}
+
 .footer{
     background-color: #2e2f42;;
 }
@@ -240,7 +233,6 @@ section{
     display: flex;
     flex-direction: column;
 }
-
 
 .footer{
     padding: 100px 0;
