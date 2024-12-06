@@ -108,10 +108,10 @@ a{
     align-items: flex-start;
     justify-content: flex-start;
     flex-direction: row;
-    gap: 24px;
+    /* gap: 24px; */
 }
 .specs-list-item{
-    width: 264px;
+    width: calc((100% - 72px) / 4);
 }
 .specs-list-title {
     color: #2e2f42;
@@ -140,8 +140,8 @@ a{
 }
 .team-list-item {
     background-color: #fff;
-    /* width: 264px;
-    height: 380px; */
+    width: 264px;
+    height: 380px;
 
     border-radius: 0 0 4px 4px;
 }
