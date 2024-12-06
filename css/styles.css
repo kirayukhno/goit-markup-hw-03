@@ -57,6 +57,7 @@ section {
     display: flex;
     justify-content: space-between;
     width: 1158px;
+    height: 72px;
 }
 .nav-header{
     display: flex;
@@ -75,13 +76,13 @@ section {
 .nav-item{
     font-weight: 500;
     color: #2e2f42;
-    padding: 24px 0;
-}
-.nav-address-item-link{
-    color: currentColor;
 }
 .nav-item-link{
     color: #2e2f42;
+    padding: 24px 0; 
+}
+.nav-address-item-link{
+    color: currentColor;
 }
 .nav-address-list{
     font-style: normal;
