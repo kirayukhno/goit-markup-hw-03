@@ -26,6 +26,21 @@ a{
     text-transform: uppercase;
     color: #4d5ae5;
 }
+.header {
+    border-bottom: 1px solid #e7e9fc;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    width: 1158px;
+}
+
+.header nav {
+    display: flex;
+    align-items: center;
+}
 .header .logo-style{
     color: #2e2f42;
     margin-right: 76px;
@@ -50,7 +65,7 @@ a{
     font-style: normal;
     display: flex;
     gap: 40px;
-    padding: 24px 0;
+    /* padding: 24px 0; */
 }
 .nav-item-link:hover, .nav-item-link:focus,
 .nav-address-item-link:hover, .nav-address-item-link:focus{
@@ -68,7 +83,6 @@ a{
     text-align: center;
     max-width: 496px;
     color: #fff;
-    margin-top: 68px;
     padding-bottom: 48px;
 }
 .hero-button{
@@ -78,18 +92,14 @@ a{
     letter-spacing: 0.04em;
     color: #fff;
     background-color: #4d5ae5;
-    padding: 16px 32px;
     border: none;
     border-radius: 4px;
-    margin-bottom: 68px;
-    margin-left: auto;
-    margin-right: auto;
-    align-self: center;
+    height: 56px;
     min-width: 169px;
+    cursor: pointer;
 }
 .hero-button:hover, .hero-button:focus{
     background-color: #404bbf;
-    cursor: pointer;
 }
 .visually-hidden {
     position: absolute;
@@ -152,13 +162,8 @@ a{
     line-height: 1.2;
     letter-spacing: 0.02em;
     text-align: center;
-    padding-top: 32px;
     margin-bottom: 8px;
 }
-/* .team-list-descr {
-    text-align: center;
-    margin-bottom: 32px;
-} */
 .team-descr-box{
     padding: 32px 0;
     text-align: center;
@@ -177,11 +182,16 @@ a{
 .portfolio-list{
     display: flex;
     flex-wrap: wrap;
-    gap: 24px;
+    column-gap: 24px;
+    row-gap: 48px;
 }
 .portfolio-list-item{
-    /* width: 320px; */
-    border: 1px solid #e7e9fc;
+    width: calc((100% - 48px) / 3);
+}
+.portfolio-descr-box{
+    border-right: 1px solid #e7e9fc;
+    border-bottom: 1px solid #e7e9fc;
+    border-left: 1px solid #e7e9fc;
 }
 .portfolio-list-title {
     color: #2e2f42;
@@ -213,6 +223,7 @@ h1, h2, h3, h4, h5, h6, p{
 
 img{
     display: block;
+    max-width: 100%;
 }
 section{
     padding: 120px 0;
@@ -224,25 +235,14 @@ section{
     justify-content: center;
     align-items: center;
 }
-.header{
-    border-bottom: 1px solid #e7e9fc;
-}
-.header .container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 1158px;
-}
-.header nav{
 
-}
 .hero .container {
     display: flex;
     flex-direction: column;
 }
 
 
-.footer .container{
+.footer{
     padding: 100px 0;
 }
 .footer .logo{
