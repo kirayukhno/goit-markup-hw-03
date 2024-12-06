@@ -71,11 +71,11 @@ section {
 .nav-list{
     display: flex;
     gap: 40px;
-    padding: 24px 0;
 }
 .nav-item{
     font-weight: 500;
     color: #2e2f42;
+    padding: 24px 0;
 }
 .nav-address-item-link{
     color: currentColor;
