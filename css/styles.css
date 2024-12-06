@@ -40,9 +40,11 @@ a{
     display: flex;
     align-items: center;
 }
+.header .logo{
+    margin-right: 76px;
+}
 .header .logo-style{
     color: #2e2f42;
-    margin-right: 76px;
 }
 
 .nav-list{
