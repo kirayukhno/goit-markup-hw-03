@@ -17,6 +17,30 @@ a{
     text-decoration: none;
     font-style: normal;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+img {
+    display: block;
+    max-width: 100%;
+}
+section {
+    padding: 120px 0;
+}
+.container {
+    width: 1188px;
+    padding: 0 15px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
 .logo{
     font-family: "Raleway", sans-serif;
     font-weight: bold;
@@ -29,13 +53,11 @@ a{
 .header {
     border-bottom: 1px solid #e7e9fc;
 }
-
 .header .container {
     display: flex;
     justify-content: space-between;
     width: 1158px;
 }
-
 .nav-header{
     display: flex;
     align-items: center;
@@ -46,7 +68,6 @@ a{
 .header .logo-style{
     color: #2e2f42;
 }
-
 .nav-list{
     display: flex;
     gap: 40px;
@@ -70,6 +91,11 @@ a{
 .nav-item-link:hover, .nav-item-link:focus,
 .nav-address-item-link:hover, .nav-address-item-link:focus{
     color: #404bbf;
+}
+
+.hero .container {
+    display: flex;
+    flex-direction: column;
 }
 .hero{
     background-color: #2e2f42;
@@ -108,12 +134,12 @@ a{
     margin: -1px;
     border: 0;
     padding: 0;
-
     white-space: nowrap;
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
+
 .specs-list{
     display: flex;
     align-items: flex-start;
@@ -132,6 +158,7 @@ a{
     letter-spacing: 0.02em;
     margin-bottom: 8px;
 }
+
 .team {
     background-color: #f4f4fd;;
 }
@@ -167,6 +194,7 @@ a{
     padding: 32px 0;
     text-align: center;
 }
+
 .portfolio-title {
     color: #2e2f42;
     font-weight: 700;
@@ -176,7 +204,6 @@ a{
     text-align: center;
     text-transform: capitalize;
     margin-bottom: 72px;
-
 }
 .portfolio-list{
     display: flex;
@@ -203,46 +230,17 @@ a{
 }
 
 .footer{
-    background-color: #2e2f42;;
+    background-color: #2e2f42;
+    padding: 100px 0;
 }
 .footer .logo-style{
     color:#f4f4fd;
 }
 .footer-descr{
     color: #f4f4fd;
-}
-
-h1, h2, h3, h4, h5, h6, p{
-  margin: 0;  
-}
-
-img{
-    display: block;
-    max-width: 100%;
-}
-section{
-    padding: 120px 0;
-}
-.container{
-    width: 1188px;
-    padding: 0 15px;
-    margin: 0 auto;
-    justify-content: center;
-    align-items: center;
-}
-
-.hero .container {
-    display: flex;
-    flex-direction: column;
-}
-
-.footer{
-    padding: 100px 0;
+    max-width: 264px;
 }
 .footer .logo{
     display: inline-block;
     margin-bottom: 16px;
-}
-.footer-descr{
-    max-width: 264px;
 }
